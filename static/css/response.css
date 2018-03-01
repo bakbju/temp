@@ -1,0 +1,217 @@
+.goHomeMedium #login_menuTitle {margin: 0; padding: 0; position: absolute; left: 400px; top: 0px; z-index: 52; float:left; font-size: 3rem; color: #9b2948; font-weight: bolder;}
+.goHomeTiny #login_menuTitle {margin: 0; padding: 0; position: absolute; left: 400px; top: 0px; z-index: 52; float:left; font-size: 3rem; color: #9b2948; font-weight: bolder;}
+
+.goHomeMedium #productGallery .calenderWrap .calender div {margin-left: 100px; margin-top: -95px; text-align: center;}
+.goHomeMedium #productGallery .calenderWrap .calender table tbody tr th{width: 100px; height: 40px; text-align: center;}
+
+.goHomeTiny #productGallery .calenderWrap .calender div {margin-left: 100px; margin-top: -95px; text-align: center;}
+.goHomeTiny #productGallery .calenderWrap .calender table tbody tr th{width: 100px; height: 40px; text-align: center;}
+
+.goHomeMedium #mainBanner { width:100%;}
+.goHomeMedium #mainBanner div .introTxt { width:100%;}
+
+.goHomeMedium #leftNav nav { display: none; }
+
+.goHomeMedium.headWrap #mainHead { height: 90px; position: relative; }
+.goHomeMedium.headWrap #mainHead .menuBtn { display: block; position: absolute; width: 91px; height: 90px; top: 0; left: 0; font-size: 0; line-height: 0; background: url('../images/tnb/btnMenuB.gif') no-repeat; }
+.goHomeMedium.headWrap .logo img { padding-top: 15px; }
+.goHomeMedium #bottomMainWrap {overflow: hidden;}
+
+/* gnb Msize */
+/****************************************************************************************************************************************************************************************************************************************************/
+.goHomeMedium #mainNav .mainNavWrap { position: absolute; right: 100%; top: 0; width: 540px; background-color: whitesmoke; text-align: left; display: none; overflow: hidden; z-index:111; font-size:50%}
+.goHomeMedium #mainNav a { height: auto; }
+.goHomeMedium #mainNav .mainNavWrap li { float: none; width: auto; }
+.goHomeMedium #mainNav .mainNavWrap .navStep1 li>a {text-align:left}
+.goHomeMedium #mainNav .mainNavWrap .navStep1 a {text-transform: capitalize; padding: 20px 0 20px 40px; font-size: 2.5em; color: #9B2948; font-weight: bold;}
+.goHomeMedium #mainNav .mainNavWrap .navStep1 li.on span {color: #ffffff;}
+
+.goHomeMedium #mainNav .navStep1 div.navStep2Wrap { padding-left: 40px; }
+.goHomeMedium #mainNav .navStep1 ul { overflow: visible; }
+
+.goHomeMedium #mainNav .navStep1 div.navStep2Wrap { height: auto; position: static; overflow: hidden; }
+.goHomeMedium #mainNav .navStep1 div.navStep2Wrap p { display: none; }
+
+.goHomeMedium #mainNav .navStep1 div.navStep2Wrap { padding-left: 40px; }
+.goHomeMedium #mainNav .navStep1 ul { overflow: visible; }
+.goHomeMedium #mainNav .navStep2 { width: auto; padding: 0; margin: 0 !important; }
+.goHomeMedium #mainNav .mainNavWrap .navStep2 li { padding: 0 0 0 0; background: none; margin-left: -40px; }
+.goHomeMedium #mainNav .mainNavWrap .navStep2 a { border: none; font-size: 2em; color: #5d5e62; padding: 20px 0 20px 40px; line-height: 110%; background: no-repeat 460px 50% !important; }
+.goHomeMedium #mainNav .mainNavWrap .navStep2 li.on a { color: #fff; background-color: #00519a !important; }
+
+.goHomeMedium.headWrap #leftNav { height: 75px; background-color:#9b2948;}
+.goHomeMedium.headWrap #leftNav .navList { right: 0; width: 100%;}
+.goHomeMedium.headWrap #leftNav .navList div { width: 24.5%; height: 100%; margin-top: 18px; border: 2px solid #6d1029; border-bottom: #9b2948; border-top: #9b2948;}
+.goHomeMedium.headWrap #leftNav .navList a { display: block; width: 100%; height: 100%; margin: 0px; font-size: 1.8rem; text-align: center; color: #fff;}
+.goHomeMedium.headWrap #leftNav .navList .login {border-left: none;}
+.goHomeMedium.headWrap #leftNav .navList .onAir {border-right: none;}
+.goHomeMedium.headWrap #mainNav { height: 0px; }
+/****************************************************************************************************************************************************************************************************************************************************/
+
+/* gnb Ssize */
+/****************************************************************************************************************************************************************************************************************************************************/
+.goHomeTiny #mainNav .mainNavWrap { display: none; overflow: hidden; position: absolute;top: 0; right: 100%; z-index:111; width: 540px; background-color: #b93150; font-size:50%; text-align: left; }
+.goHomeTiny #mainNav a { height: auto; }
+.goHomeTiny #mainNav .mainNavWrap li { float: none; width: auto; }
+.goHomeTiny #mainNav .mainNavWrap .navStep1 li {border-bottom: 1px solid #d8d8d8;border-top: 1px solid #ffffff; }
+.goHomeTiny #mainNav .mainNavWrap .navStep1 li>a { text-align: left; }
+.goHomeTiny #mainNav .mainNavWrap .navStep1 a {text-transform: capitalize; padding: 20px 0 20px 40px; font-size: 2.5em; color: #fff; font-weight: bold;}
+.goHomeTiny #mainNav .mainNavWrap .navStep1 li.on span {color: #fff;}
+.goHomeTiny #mainNav .mainNavWrap .navStep1, .goHomeTiny #mainNav .navStep1 div.navStep2Wrap { padding-left: 40px; }
+.goHomeTiny #mainNav .navStep1 ul { overflow: visible; }
+
+.goHomeTiny #mainNav .navStep1 div.navStep2Wrap { height: auto; position: static; overflow: hidden; }
+.goHomeTiny #mainNav .navStep1 div.navStep2Wrap p { display: none; }
+
+.goHomeTiny #mainNav .navStep1 div.navStep2Wrap { padding-left: 40px; }
+.goHomeTiny #mainNav .navStep1 ul { overflow: visible; }
+.goHomeTiny #mainNav .navStep2 { width: auto; padding: 0; margin: 0 !important; }
+.goHomeTiny #mainNav .mainNavWrap .navStep2 li { padding: 0 0 0 0; background: none; margin-left: -40px; }
+.goHomeTiny #mainNav .mainNavWrap .navStep2 a { border: none; font-size: 2em; color: #5d5e62; padding: 20px 0 20px 40px; line-height: 110%; background: no-repeat 460px 50% !important; }
+.goHomeTiny #mainNav .mainNavWrap .navStep2 li.on a { color: #fff; background-color: #00519a !important; }
+/****************************************************************************************************************************************************************************************************************************************************/
+
+
+.goHomeTiny.headWrap #leftNav { height: 75px; background-color:#9b2948;}
+.goHomeTiny.headWrap #leftNav .navList { right: 0; width: 100%;}
+.goHomeTiny.headWrap #leftNav .navList div { width: 24.5%; height: 100%; margin-top: 18px; border: 2px solid #6d1029; border-bottom: #9b2948; border-top: #9b2948;}
+.goHomeTiny.headWrap #leftNav .navList a { display: block; width: 100%; height: 100%; margin: 0px; font-size: 1.8rem; text-align: center; color: #fff;}
+.goHomeTiny.headWrap #leftNav .navList .login {border-left: none;}
+.goHomeTiny.headWrap #leftNav .navList .onAir {border-right: none;}
+.goHomeTiny.headWrap #mainNav { height: 0px; }
+
+/*  searchBox  */
+/******************************************************************************************************************************************/
+.goHomeMedium #globalSearch {max-width: 978px; width: 100%; height: 60px; left: 0; top:95px; padding:0; text-align:left;}
+.goHomeMedium #globalSearch input {width: 70%; height:50px; font-size:2em;}
+.goHomeMedium #globalSearch button {width: 10%; height: 50px; vertical-align:top; font-size: 2rem; float: right; font-weight: bolder;}
+.goHomeMedium .searchOpen {position:absolute; top: 0px;right: 0px}
+.goHomeMedium.headWrap #mainHead {overflow:hidden;}
+/******************************************************************************************************************************************/
+.goHomeTiny #globalSearch {max-width: 978px; width: 100%; height: 60px; left: 0; top:95px; padding:0; text-align:left;}
+.goHomeTiny #globalSearch input {width: 70%; height:50px; font-size:2em;}
+.goHomeTiny #globalSearch button {width: 10%; height: 50px; vertical-align:top; font-size: 2rem; float: right; font-weight: bolder;}
+.goHomeTiny .searchOpen {position:absolute; top: 0px;right: 0px}
+.goHomeTiny.headWrap #mainHead {overflow:hidden;}
+/******************************************************************************************************************************************/
+
+.goHomeMedium .leftSide {max-width: none;position: relative;width: 97%;float: left;height: 277px;margin:0px 10px;}
+.goHomeMedium .mainBannerWrap {width: 100%;max-width: 1280px;}
+.goHomeMedium .introPagerWrap {margin-left: -57px;}
+
+
+
+.goHomeMedium .loginOption {width:97%; max-width:none; margin-top :10px; margin-left: 10px; height: 50px}
+.goHomeTiny .loginOption {width:97%; max-width:none; margin-top :10px; margin-left: 10px; height: 50px}
+
+.goHomeMedium .loginOption ul li {font-size: 1.5rem;}
+.goHomeTiny .loginOption ul li {font-size: 1.5rem;}
+
+.goHomeMedium .boardWrap {width:97%; max-width:none; margin-top :10px; margin-left: 10px}
+.goHomeTiny .boardWrap {width:97%; max-width:none; margin-top :10px; margin-left: 10px}
+
+
+.goHomeMedium #introduce {width:97%; height: 421px; max-width:none; margin-top :10px; margin-left: 10px}
+.goHomeTiny #introduce {width:97%; height: 421px; max-width:none; margin-top :10px; margin-left: 10px}
+
+.goHomeMedium #liveWrap {width:97%; max-width:none; margin-top :10px; margin-left: 10px }
+
+.goHomeMedium #askLec {max-width: none;}
+
+/* footer */
+.goHomeMedium #footer { position: relative; padding: 20px 0 0; }
+.goHomeMedium .siteLinks { display: none; }
+.goHomeMedium .bnb { display: block; }
+
+.goHomeTiny #mainBanner { width:100%; }
+.goHomeTiny #mainBanner div .introTxt { width:100%; }
+
+.goHomeTiny.headWrap #mainHead { height: 90px; position: relative; }
+.goHomeTiny.headWrap #mainHead .menuBtn { display: block; position: absolute; width: 91px; height: 90px; top: 0; left: 0; font-size: 0; line-height: 0; background: url('../images/tnb/btnMenuB.gif') no-repeat; }
+.goHomeTiny.headWrap .logo img { padding-top: 15px; }
+.goHomeTiny #bottomMainWrap {overflow: hidden;}
+
+
+.goHomeTiny .leftSide {max-width: none;position: relative;width: 97%;float: left;height: 277px;margin:0px 10px;}
+.goHomeTiny .mainBannerWrap {width: 100%;max-width: 1280px;}
+.goHomeTiny .introPagerWrap {margin-left: -57px;}
+
+.goHomeTiny #liveWrap {width:97%; max-width:none; margin-top :10px; margin-left: 10px;}
+
+.goHomeTiny #askLec {max-width: none;}
+
+.goHomeTiny .menuTitle {font-size: 1.5rem;}
+.goHomeMedium .menuTitle {font-size: 1.5rem;}
+
+
+.goHomeMedium .offline {width:97%; max-width:none; margin-top :10px; margin-left: 10px}
+.goHomeMedium .offline .inBody {font-size: 1.3rem;}
+.goHomeMedium .offline .offlineForm {width:90px;}
+.goHomeMedium .offline .offlineForm a {font-size: 1.3rem; font-weight: bold;}
+/**********************************************************************************************************************************************/
+.goHomeTiny .offline {width:97%; max-width:none; margin-top :10px; margin-left: 10px}
+.goHomeTiny .offline .inBody {font-size: 1.3rem;}
+.goHomeTiny .offline .offlineForm {width:90px;}
+.goHomeTiny .offline .offlineForm a {font-size: 1.3rem; font-weight: bold;}
+
+.goHomeMedium #productGallery .prodTxt {float: left; width: 100%; height: 10%; font-size: 1.3rem; font-weight: bold; margin-top: 30px; color: #9b2948}
+.goHomeTiny #productGallery .prodTxt {float: left; width: 100%; height: 10%; font-size: 1.3rem; font-weight: bold; margin-top: 30px; color: #9b2948}
+
+.goHomeMedium #productGallery .calenderWrap .calender {font-size: 1.3rem;}
+.goHomeMedium #productGallery .calenderWrap .calender div {margin-left: 100px; margin-top: -122px;}
+
+
+.goHomeMedium .templateBody {width:97%; max-width:none; margin-top :10px; margin-left: 10px; height: 400px;}
+.goHomeTiny .templateBody {width:97%; max-width:none; margin-top :10px; margin-left: 10px; height: 400px;}
+
+.goHomeMedium #uploadRecent {max-width:none;}
+.goHomeMedium .inBoxContent {margin: 0px; font-size: 1.3rem;padding: 16px 18px 0px;}
+.goHomeMedium .inBoxContent li {padding: 0px; margin: 0px 0px 15px; list-style: none;}
+.goHomeMedium .writeBtn {float: right; height: 143px; width: 70px; font-size: 1.3rem;}
+.goHomeMedium .more {float: right; height: 143px; width: 70px; font-size: 1.3rem;}
+/*****************************************************************************************************************************************************/
+.goHomeTiny #uploadRecent {max-width: none;}
+.goHomeTiny .inBoxContent {margin: 0px; font-size: 1.3rem;padding: 16px 18px 0px;}
+.goHomeTiny .inBoxContent li {padding: 0px; margin: 0px 0px 15px; list-style: none;}
+.goHomeTiny .writeBtn {float: right; height: 143px; width: 70px; font-size: 1.3rem;}
+.goHomeTiny .more {float: right; height: 143px; width: 70px; font-size: 1.3rem;}
+
+/*loginPage*/
+/**************************************************************************************************************************************************************************************/
+.goHomeMedium .loginBody {width:97%; max-width:none; margin-top :10px; margin-left: 10px; height: 190px;}
+.goHomeMedium .loginBody .loginWrap div {float: left; width: 33%; height: 100%;}
+.goHomeMedium .loginBody .loginWrap .inputField input {height:50px; margin-bottom: 5px;}
+.goHomeMedium .loginBody .loginWrap .boxName ul li {margin-top: 11px; margin-right: 15px; margin-bottom: 40px; font-size: 1.5rem; color: #2a2a2a; }
+.goHomeMedium .loginBody .loginWrap .submitBtn button {margin-left: 5px; width: 117px; height: 117px; border: none; background: #9b2948; font-size: 1.5rem; color: white; }
+.goHomeMedium .loginWrap .inputField ul li #rememberMe {position: relative; width: 20px; height: 20px; font-size: 1.3rem;}
+.goHomeMedium .loginWrap .inputField ul li label {position: relative; top:-3px; width: 20px; height: 20px; font-size: 1.3rem;}
+/**************************************************************************************************************************************************************************************/
+.goHomeTiny .loginBody {width:97%; max-width:none; margin-top :10px; margin-left: 10px; height: 190px;}
+.goHomeTiny .loginBody .loginWrap div {float: left; width: 33%; height: 100%;}
+.goHomeTiny .loginBody .loginWrap .inputField input {height:50px; margin-bottom: 5px;}
+.goHomeTiny .loginBody .loginWrap .boxName ul li {margin-top: 11px; margin-right: 15px; margin-bottom: 40px; font-size: 1.5rem; color: #2a2a2a; }
+.goHomeTiny .loginBody .loginWrap .submitBtn button {margin-left: 5px; width: 117px; height: 117px; border: none; background: #9b2948; font-size: 1.5rem; color: white; }
+.goHomeTiny .loginWrap .inputField ul li #rememberMe {position: relative; width: 20px; height: 20px; font-size: 1.3rem;}
+.goHomeTiny .loginWrap .inputField ul li label {position: relative; top:-3px; width: 20px; height: 20px; font-size: 1.3rem;}
+/**************************************************************************************************************************************************************************************/
+
+/*registerPage*/
+/**************************************************************************************************************************************************************************************/
+.goHomeMedium .registerBody {width:97%; max-width:none; margin-top :10px; margin-left: 10px; height: 500px;}
+.goHomeMedium .registerBody label {font-size: 1.5rem;}
+.goHomeMedium .registerBody .inputField input {height:50px; margin-bottom: 5px;}
+.goHomeMedium .registerBody .boxName ul li {margin-top: 11px; margin-right: 15px; margin-bottom: 40px; font-size: 1.5rem; color: #2a2a2a; }
+.goHomeMedium .registerBody .inputField button {border-radius: 0px; width: 65px; height: 50px; border: none; background: #9b2948; color: whitesmoke; font-size: 1.3rem;}
+/**************************************************************************************************************************************************************************************/
+.goHomeTiny .registerBody {width:97%; max-width:none; margin-top :10px; margin-left: 10px; height: 500px;}
+.goHomeTiny .registerBody label {font-size: 1.5rem;}
+.goHomeTiny .registerBody .inputField input {height:50px; margin-bottom: 5px;}
+.goHomeTiny .registerBody .boxName ul li {margin-top: 11px; margin-right: 15px; margin-bottom: 40px; font-size: 1.5rem; color: #2a2a2a; }
+/**************************************************************************************************************************************************************************************/
+
+/* footer */
+.goHomeTiny #footer { position: relative; padding: 20px 0 0; }
+.goHomeTiny #footer #footerTop {font-size: 1.5rem; margin-top: 10px; padding: 5px 5px; background-color: #cdc6c4;}
+.goHomeTiny #footer #footerBottom {font-size: 1.5rem; margin-top: 10px; padding: 5px 5px; background-color: #b4adab;}
+.goHomeMedium #footer #footerTop {font-size: 1.5rem; margin-top: 10px; padding: 5px 5px; background-color: #cdc6c4;}
+.goHomeMedium #footer #footerBottom {font-size: 1.5rem; margin-top: 10px; padding: 5px 5px; background-color: #b4adab;}

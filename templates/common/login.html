@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<div th:include="fragment/head :: headFragment" ></div>
+<body>
+<div class="bodyWrap">
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div th:include="fragment/navigator :: navigatorFragment" ></div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <div id="location" th:text="'홈 &lt; 로그인&nbsp;&nbsp;&nbsp;'"></div>
+
+    <div class="topMainWrap">
+        <!--#####################################################################################################################################################################################################################-->
+        <div class="loginBody">
+
+            <div class="loginWrap">
+                <form th:action="@{/login}" th:method="'post'">
+                    <div class="boxName">
+                        <ul>
+                            <li>이메일</li>
+                            <li>비밀번호</li>
+                        </ul>
+                    </div>
+                    <div class="inputField">
+                        <ul>
+                            <li><input type="input" name="username"/></li>
+                            <li><input type="password" name="password"/></li>
+                            <li><input id="rememberMe" type="checkbox" name="remember-me"/><label for="rememberMe" th:text="'&nbsp;기억하기'"/></li>
+                            <li id="errorMsg" th:if="${param.error != null}" th:text="'아이디나 비밀번호가 일치하지 않습니다.'"></li>
+                        </ul>
+                    </div>
+                    <div class="submitBtn">
+                        <ul>
+                            <li>
+                                <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
+                                <button type="submit">로그인</button>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--#####################################################################################################################################################################################################################-->
+        <div class="loginOption">
+            <ul>
+                <li><a th:href="@{/register/form}">회원가입</a></li>
+                <li>|</li>
+                <li><a href="#">아이디/비밀번호 찾기</a></li>
+                <li>|</li>
+                <li><a href="#">회원탈퇴</a></li>
+            </ul>
+        </div>
+        <!--#####################################################################################################################################################################################################################-->
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div th:include="fragment/footer :: footerFragment" ></div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+</div>
+<div th:include="fragment/script :: scriptFragment" ></div>
+</body>
+</html>

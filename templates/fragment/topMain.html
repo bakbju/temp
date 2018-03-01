@@ -1,0 +1,58 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Document</title>
+</head>
+<body>
+<div th:fragment="topMainFragment">
+    <div class="topMainWrap">
+        <!--#####################################################################################################################################################################################################################-->
+        <div class="leftSide">
+            <div class="mainBannerWrap">
+                <div id="mainBanner">
+                    <div>
+                        <p>
+                            <a href="#">
+                                <img th:src="@{/images/banner/first.jpg}" alt="" onerror="ImageError(this);" class="mainBannerImage"/>
+                                <img th:src="@{/images/banner/first.jpg}" alt="" onerror="ImageError(this);" class="introTxt"/>
+                            </a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <a href="#">
+                                <img th:src="@{/images/banner/second.jpg}" alt="" onerror="ImageError(this);" class="mainBannerImage"/>
+                                <img th:src="@{/images/banner/second.jpg}" alt="" onerror="ImageError(this);" class="introTxt"/>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <a class="btnLeftRolling" href="#">왼쪽</a>
+                <a class="btnRightRolling" href="#">오른쪽</a>
+            </div>
+        </div>
+        <!--#####################################################################################################################################################################################################################-->
+        <div id="introduce">
+            <div class="videoWrap">
+                <iframe align="middle" src="https://www.youtube.com/embed/0vrdgDdPApQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen="true"></iframe>
+            </div>
+        </div>
+        <!--#####################################################################################################################################################################################################################-->
+        <div class="offline">
+            <div class="menuTitle">오프라인 강의신청</div>
+            <!--#####################################################################################################################################################################################################################-->
+            <div class="inBody">양식에 맞춰 무료 오프라인 강의를 신청해주세요.</div>
+            <!--#####################################################################################################################################################################################################################-->
+            <div class="offlineForm">
+                <a href="">신청하기</a>
+            </div>
+            <!--#####################################################################################################################################################################################################################-->
+        </div>
+        <!--#####################################################################################################################################################################################################################-->
+    </div>
+</div>
+</body>
+</html>

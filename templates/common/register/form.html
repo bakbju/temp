@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:include="fragment/head :: headFragment" ></div>
+<body>
+<div class="bodyWrap">
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div th:include="fragment/navigator :: navigatorFragment" ></div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div class="topMainWrap">
+        <!--#####################################################################################################################################################################################################################-->
+        <div id="location" th:text="'홈 &lt; 로그인 &lt; 회원가입 &lt; 회원가입완료 &nbsp;&nbsp;&nbsp;'"></div>
+        <div class="registerBody">
+            <form th:action="@{/register}" method="post">
+                <div class="inputField">
+                    <ul>
+                        <label for="inputEmail" th:text="'이메일을 입력해주세요'"/>
+                        <li>
+                            <input type="email" name="email" id="inputEmail"/>
+                            <small th:text="'이메일로 링크를 전송하여 회원가입이 완료될 수 있도록 돕겠습니다.'"/>
+                        </li>
+                        <label for="inputNick" th:text="'별명을 입력해주세요'"/>
+                        <li>
+                            <input type="input" name="nick" id="inputNick"/>
+                            <small th:text="'야근하지말자에서 사용할 이름을 입력해주세요.'"/>
+                        </li>
+                        <label for="inputPwd" th:text="'비밀번호를 입력해주세요'"/>
+                        <li>
+                            <input type="input" name="password" id="inputPwd"/>
+                            <small th:text="'한번만 입력하니 틀리지 않게 주의해주세요.'"/>
+                        </li>
+                        <input type="hidden" name="role" value="ROLE_USER_TEMP"/>
+                        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
+                        <button type="submit" th:text="'완료'"></button>
+                        <small th:text="'&nbsp;&nbsp;완료를 누르면 개인정보방침에 동의한 것으로 간주합니다.'"/>
+                    </ul>
+                </div>
+            </form>
+            <div id="introduceGoHome">
+                <ul>
+                    <li id="introduceTitle"><span th:text="'야근하지말자는?'"></span></li>
+                    <li>
+                        <p th:text="'무료 온라인&#47;오프라인 교육사이트입니다.'"/>
+                        <p th:text="'여러분들이 힘들지 않게 공부할 수 있도록'"/>
+                        <p th:text="'유익한 콘텐츠를 만들어'"/>
+                        <p th:text="'여러분들의 야근시간을 줄이겠습니다.'"/>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--#####################################################################################################################################################################################################################-->
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div th:include="fragment/footer :: footerFragment" ></div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+</div>
+<div th:include="fragment/script :: scriptFragment" ></div>
+</body>
+</html>

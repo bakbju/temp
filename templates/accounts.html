@@ -1,0 +1,20 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Document</title>
+</head>
+<body>
+<th:block th:each="account : ${accounts}">
+<ul>
+    <li th:text="${account.id}"></li>
+    <li th:text="${account.email}"></li>
+    <li th:text="${account.password}"></li>
+    <li th:text="${account.role}"></li>
+    <li th:text="${account.nick}"></li>
+</ul>
+</th:block>
+</body>
+</html>

@@ -1,0 +1,300 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+a { text-decoration: none; }
+iframe { display: block; }
+html, body {font-family: 'Nanum Gothic', sans-serif;}
+body { min-width: 640px; height: 100%; visibility: hidden;  background-color: #d8d1cf;overflow-x: hidden;}
+a:link, a:hover, a:visited { color: #64625f; }
+
+#userNick {float: right; display: inline; padding-top: 5px;}
+#location  { background-color: #eaeaea; overflow: hidden; position: relative; margin: 0 auto; max-width: 996px; text-align: right; font-size: 1rem; color: #6f6866; padding-top: 5px; padding-bottom: 5px; }
+
+.topMainWrap {overflow: hidden;position: relative;padding: 0;margin: 0 auto;max-width: 996px; background-color: #d8d1cf;}
+.topMainWrap #introduce .videoWrap { display: block; width: 100%}
+.topMainWrap #introduce .videoWrap iframe { display: block; width: 100%; height: 100%; max-width: 1000px; margin: 0 auto;}
+.mainBannerWrap { position: relative; width:100%; height: 266px; background-color:#bdb6b4; overflow:hidden; max-width: 645px; float:left; margin-right: 10px; margin-top: 11px;}
+
+.menuTitle {margin: 0; padding: 0; position: absolute; left: 5px; top: 0px; z-index: 52; float:left; font-size: 1.2rem; color: #9b2948; font-weight: bolder;}
+
+.offline { position: relative; width:100%; height: 80px; background-color:white; overflow:hidden; max-width: 993px; float:left; margin-right: 10px; margin-top: 11px; border: 1px solid #c9c9c9}
+.offline .inBody {width:60%; height: 100%; padding: 35px 0 0 15px; font-size: 1rem; float: left;}
+.offline .offlineForm {width:70px; height: 80px; float: right;}
+.offline .offlineForm a {display: inline-block; width: 100%; height: 100%; text-align: center; background-color: #9b2948; color: whitesmoke; padding-top: 30px; font-weight: bold;}
+
+.templateBody { position: relative; width:100%; height: 400px; background-color:white; overflow:hidden; max-width: 993px; float:left; margin-top: 11px; border: 1px solid #c9c9c9}
+
+/*loginPage*/
+/*********************************************************************************************************************************************************************************/
+.loginBody { position: relative; width:100%; height: 170px; background-color:white; overflow:hidden; max-width: 993px; float:left; margin-top: 11px; border: 1px solid #c9c9c9}
+.loginBody .loginWrap div {float: left; width: 33%; height: 100%; }
+.loginBody .loginWrap .boxName ul {float: right; list-style: none;}
+.loginBody .loginWrap .boxName ul li {margin-top: 8px; margin-right: 15px; margin-bottom: 25px; font-size: 1.5rem; color: #2a2a2a; }
+.loginBody .loginWrap .submitBtn ul {list-style: none;}
+.loginBody .loginWrap .submitBtn button {margin-left: 5px; width: 100px; height: 97px; border: none; background: #9b2948; font-size: 1.5rem; color: white; }
+.loginBody .loginWrap .inputField ul {list-style: none;}
+.loginBody .loginWrap .inputField ul li:hover {color: #9b2948;}
+.loginBody .loginWrap .inputField input {width: 99%; height:40px; margin-bottom: 5px;}
+.loginBody .loginWrap .inputField input {border: 2px solid #949494;}
+.loginBody .loginWrap .inputField input:hover {border-color: #9b2948;}
+.loginWrap .loginBody div #inputField ul{list-style: none;}
+.loginWrap .loginBody div #inputField ul li {width: 100%;}
+.loginWrap #rememberMe {width: 12px; height: 12px;}
+.loginWrap #errorMsg {padding-top: 5px;}
+
+
+/*********************************************************************************************************************************************************************************/
+
+.loginOption { position: relative; width:100%; height: 40px; background-color:white; overflow:hidden; max-width: 993px; float:left; margin-top: 11px; border: 1px solid #c9c9c9; text-align: center;}
+.loginOption ul {list-style: none; margin-top: 7px; bottom: 0;}
+.loginOption ul li { display: inline; margin-right: 5px; font-size: 1.3rem;}
+
+.boardWrap { position: relative; width:100%; height: 400px; background-color:white; overflow:hidden; max-width: 993px; float:left; margin-top: 11px; border: 1px solid #c9c9c9}
+.boardWrap .board div {}
+
+/*registerPage*/
+/*********************************************************************************************************************************************************************************/
+.registerBody { position: relative; width:100%; height: 400px; background-color:white; overflow:hidden; max-width: 993px; float:left; margin-top: 11px; border: 1px solid #c9c9c9}
+.registerBody div {margin-left: 10px; float: left; width: 45%; height: 170px; }
+.registerBody .submitBtn ul {list-style: none;}
+.registerBody .submitBtn button {margin-left: 5px; width: 100px; height: 97px; border: none; background: #9b2948; font-size: 1.5rem; color: white; }
+.registerBody .inputField ul {list-style: none;}
+.registerBody .inputField ul li {padding-top: 5px; padding-bottom: 25px;}
+.registerBody .inputField ul li:hover {color: #9b2948;}
+.registerBody .inputField input {width: 99%; height:40px; margin-bottom: 5px;}
+.registerBody .inputField input {border: 2px solid #949494;}
+.registerBody .inputField input:hover {border-color: #9b2948;}
+.registerBody .inputField button {border-radius: 0px; border: none; background: #9b2948; color: whitesmoke;}
+/*****************************************************************************************************************************************************************************/
+.registerBody #introduceGoHome {float: right; margin-top: 10px; padding-right: 20px;}
+.registerBody #introduceGoHome ul {list-style: none;}
+.registerBody #introduceGoHome ul li {border: 1px solid #b4adab; padding-top: 20px; padding-bottom: 20px; text-align: center;}
+.registerBody #introduceGoHome #introduceTitle {font-size: 1.2rem; font-weight: bold; padding-top: 20px; padding-bottom: 20px; text-align: center;}
+.registerBody h3 {text-align: center;}
+.registerBody #goToHome {margin-left: 430px; font-size: 1.5rem; background: #9b2948; color: whitesmoke;}
+/*********************************************************************************************************************************************************************************/
+
+#liveWrap {position: relative; width: 100%; max-width: 500px; height: 300px; background-color:#FFFFFF; overflow:hidden; float:left; margin-top: 11px; border: 1px solid #c9c9c9;}
+
+.navStep1 span {font-size:1.2em;}
+
+#productGallery {position:relative;height:100%}
+
+#productGallery .links_prev, #productGallery .links_next{position:absolute;top: 44.3%;width: 8%;max-width: 67px; z-index: 999;}
+#productGallery .links_prev{left: 2.0%; text-align:center;}
+#productGallery .links_next{right: 2.0%; text-align:center;}
+
+/*#productGallery .PbdayTxt {position: absolute;z-index: 53;right: 9%;}*/
+
+#introduce { position: relative; width: 100%; max-width: 336px; height: 264px; overflow:hidden; float:left; margin-top: 11px; background-color: #d8d1cf; display: inline-flex;}
+
+#askLec {position: relative; width: 97%; max-width: 480px; height: 143px; background-color:#ffffff; border: 1px solid #c9c9c9; overflow:hidden; float:left; margin-left: 10px; margin-top: 11px;}
+
+
+
+/*메인이미지롤링*/
+#mainBanner {position: relative; width:645px; height: 266px; max-width: 100%; float:left; margin-right: 10px; overflow: visible !important; background-color: #fff;  border: 1px solid #c9c9c9;}
+#mainBanner .mainBannerImage { position: absolute; top: 0; left: 50%; margin-left: -325px; }
+#mainBanner span.btnDetail { position: absolute; top: 55%; left: 50%; margin-left: -36px; }
+#mainBanner div { position: absolute; top: 0; width: 100%; height: 100%; overflow: hidden;}
+#mainBanner p { padding: 0; margin: 0; position: relative; width: 100%; height: 100%; overflow: hidden; background-color: #fff; }
+#mainBanner div a { display: block; width: 100%; height: 100%; font-size: 0; line-height: 0; }
+#mainBanner div .introTxt { position: absolute; display: block; font-size: 0; line-height: 0; }
+.introPagerWrap { position: absolute; padding: 4px; left: 50%; margin-left: -65px; bottom: 5%; z-index: 1000; /* background:url('/images/main/bgIntroPager.png') no-repeat 100% 0;*/ font-size: 0; line-height: 0; }
+.introPager { background: url('../images/main/bgIntroPagerL.png') no-repeat 100% 0; }
+.introPager a { display: block; float: left; width: 14px; height: 13px; margin: 0 2px; background: url('../images/main/btnIntroPager.png') no-repeat; font-size: 0; line-height: 0; }
+.introPager a.active { width: 38px; height: 13px; background: url('../images/main/btnIntroPagerActive.png') no-repeat; font-size: 0; line-height: 0; }
+.mainBannerWrap .btnLeftRolling { position: absolute; left: 13px; top: 50%; width: 36px; height: 36px; margin-top: -13px; font-size: 0; line-height: 0; text-indent: -9999; background: url('../images/main/btnIntroLeft_mod.png') no-repeat; z-index: 51; }
+.mainBannerWrap .btnRightRolling { position: absolute; right: 13px; top: 50%; width: 36px; height: 36px; margin-top: -13px; font-size: 0; line-height: 0; text-indent: -9999; background: url('../images/main/btnIntroRight_mod.png') no-repeat; z-index: 51; }
+.introBtn { position: absolute; top: 8px; left: 50%; display: block; width: 20px; height: 12px; cursor: pointer; }
+.introBtn.view { background: url('../images/main/btnIntroClose.gif') no-repeat 50% 50%; }
+.introBtn.close { background: url('../images/main/btnIntroView.gif') no-repeat 50% 50%; }
+.headWrap { position: relative; }
+/***************************************************/
+
+#leftNav { position: relative; background-color: #ffffff; height: 30px; border-bottom: 1px solid #9b2948;}
+.leftNavWrap { position: relative; max-width: 996px; margin: 0 auto; }
+.tnbList { overflow: hidden; font-size: 0.7em; line-height:16px; }
+.tnbList li { float: left; padding: 7px 10px; text-align: center }
+.tnbList a { color: #949494; }
+#leftNav .navList { position: absolute; top: 0px; left: 0; z-index: 99; overflow: hidden; color: #fff; font-weight: bold;}
+#leftNav .navList div { float: left; height: 85px; margin-top: 50px; padding: 0; }
+#leftNav .navList a {display: inline; margin: 12px; padding: 0; width: 68px; z-index: 99; color: #9b2948; font-size: 0.8rem;}
+
+.headWrap #mainHead { height: 69px; text-align: center; background: #ffffff; }
+.headWrap #mainHead .logo { padding-top: 4px }
+.headWrap #mainHead .logo img { margin-top: 5px; }
+#mainHead .mainHeadWrap { position: relative; max-width: 1013px; margin: 0 auto; }
+
+#globalSearch { position: absolute; top: 20px; right: 50%; background: #f5f5f5; padding: 0 10px; margin-right: -49.1%; border-radius: 0px; font-size: 0.8em; border: 1px solid #9b2948; }
+#globalSearch legend { visibility: hidden; height: 0; width: 0; font-size: 0; line-height: 0; overflow: hidden; }
+#globalSearch input { background: transparent; padding-top: 6px; border: 0; color: #656464; min-width:210px; width:210px;}
+#globalSearch button { width: 20px; padding: 5px; border: 0; background: transparent; font-size: 1rem; color: #9b2948; font-weight: bolder}
+
+/*원본 gnb*/
+/*************************************/
+#mainNav { background: #9b2948; overflow: hidden; height: 40px; width: 100%; border-top: 0px;}
+#mainNav .mainNavWrap { margin: 0 auto; max-width: 996px; }
+#mainNav .addedMenu { display: none; }
+#mainNav .navStep1 ul { clear: both; }
+#mainNav a { display: block; height: 30px; padding-top: 9px; color: #FFFFFF; font-size: 0.75em; text-align:center; text-transform: uppercase; }
+#mainNav .navStep1 { position: absolute; max-width: 996px; height: 39px; width: 100%; z-index: 100;}
+#mainNav .navStep1>li { width: 14.285%; }
+#mainNav li.firstMenu { width: 14.285%; }
+#mainNav .navStep1 li.on>a, #mainNav .navStep1 li>a:hover { background: rgba(14, 4, 7, 0.47); color: #fff;}
+#mainNav .navStep1 li { float: left; }
+#mainNav .navStep1 div.navStep2Wrap { display: none; position: absolute; top: 40px; left: 0; width: 100%; background: #f5f5f5; z-index: 100; border-bottom: 1px solid #BBBBBB; text-align: center}
+#mainNav .subject { padding: 10px 0; margin: 0 20px; border-bottom: 1px solid #525251; text-align: left; color: #fff; }
+#mainNav .navStep2 { width: 100%; z-index: 100; }
+#mainNav .navStep2 li { float: left; }
+#mainNav .navStep2 a { padding: 10px 20px 13px 10px; height: auto; color: #949494;}
+#mainNav .navStep2 li.on a,
+#mainNav .navStep2 a:hover { color: #9b2948; background: 90% 54.5%; }
+
+#mainNav .location { display: none; position: absolute; right: 0; top: 135px; color: #ccc; z-index: 101; font-size: 0.8em; margin-right: 20px; text-transform: uppercase; }
+#mainNav .location .status { font-weight: bold; }
+#mainNav .location img { margin-top: -4px; }
+/*************************************/
+
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+#bottomMainWrap {overflow: hidden;position: relative;padding: 0;margin: 0 auto;max-width: 996px;background-color: #d8d1cf;}
+/**************************************************************************************************************************/
+#productGallery .inner{display:none;overflow:hidden; height:100%; margin: 0;}
+#productGallery .inner.on{display:block;}
+#productGallery .inner .clicked{position:absolute; right:0; overflow: hidden; height: 300px; max-width: 960px; width: 100%;list-style: none; text-align: center;}
+/**************************************************************************************************************************/
+#productGallery .list_product{width:9999px;margin:0;}
+#productGallery .list_product:after{content:'';display:block;clear:both;}
+#productGallery .list_product li{height:100%; margin:0 auto;}
+/**************************************************************************************************************************/
+#productGallery .calenderWrap {float: left;width: 100%;height: 100%;}
+#productGallery .calenderWrap .calender {float: left;width: 100%; height: 80%;}
+#productGallery .calenderWrap .calender div {margin-left: 100px; margin-top: -95px;}
+#productGallery .calenderWrap .calender table tbody tr th{width: 40px; height: 40px;}
+/**************************************************************************************************************************/
+#productGallery .prodTxt {float: left; width: 100%; height: 10%; font-size: 0.9rem; margin-top: 40px; color: #9b2948}
+/**************************************************************************************************************************/
+
+/* ==========================================================================
+    Footer
+   ========================================================================== */
+#footer {overflow: hidden; position: relative; padding: 0; margin: 0 auto; max-width: 996px; background-color: #d8d1cf; text-align: center;}
+#footer #footerTop {font-size: 1em; margin-top: 10px; padding: 5px 5px; background-color: #cdc6c4;}
+#footer #footerTop li {display: inline; margin-right: 10px; font-weight: bolder;}
+#footer #footerBottom {font-size: 1em; margin-top: 10px; padding: 5px 5px; background-color: #b4adab;}
+#footer #footerBottom li {display: inline; margin-right: 10px; color: #2a2a2a; font-weight: bolder;}
+#footer #footerHidden {display: inline; margin-right: 10px}
+#footer #footerHidden li {display: inline; margin: 20px 20px 20px 20px;}
+
+#uploadRecent {position: relative; width: 97%; max-width: 480px; height: 144px; background-color:#FFFFFF; overflow:hidden; float:left; margin-top: 11px; margin-left: 10px; border: 1px solid #c9c9c9;}
+.inBoxContent {margin: 0px; font-size: 1rem;padding: 20px 18px 0px; float: left;}
+.inBoxContent li {padding: 0px; margin: 0px 0px 15px; list-style: none;}
+.writeBtn {float: right; height: 143px; width: 60px;}
+.writeBtn a {color: whitesmoke; display: inline-block; width: 100%; height: 100%; background-color: #9b2948; padding-top: 65px; text-align: center; font-weight: bold;}
+.more {float: right; height: 143px; width: 60px;}
+.more a {color: whitesmoke; display: inline-block; width: 100%; height: 100%; background-color: #6d1029; padding-top: 65px; text-align: center; font-weight: bold;}
+
+
+/* ==========================================================================
+   Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles.
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
